@@ -1,0 +1,104 @@
+body{
+background-color:#f2f2f2;
+}
+
+.project1{
+background-color:#ebd7d3;
+}
+.project2{
+background-color:#ebe3d3;
+}
+.project3{
+background-color:#d3ebd9;
+}
+.project4{
+background-color:#ededed;
+}
+.project5{
+background-color:#d3e6eb;
+}
+.project6{
+background-color:#ddd1de;
+}
+.skill{
+padding: 5px; border: 0.5px solid black;background-color:#ededed;
+}
+#profile-wrapper{
+text-align:center;
+}
+
+#profile-pic{
+margin-left:auto;
+margin-right:auto;
+width:150p;
+height:150px;
+border-radius:50%;
+}
+
+ul{
+padding:0;
+list-style-type:none;
+}
+
+.social-links,ul,li{
+list-style-type:none;
+
+display:inline-block;
+}
+.social{
+
+width:30px;
+height:30px;
+}
+
+
+
+
+#theme-options-wrapper{
+display: flex;
+justify-content: center;
+}
+
+.theme-dot{
+height: 30px;
+width: 30px;
+background-color: black;
+border-radius: 50%;
+
+margin: 5px;
+border:2px solid var(--themeDotBorder);
+
+-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+cursor: pointer;
+}
+
+
+.theme-dot:hover{
+border-width: 5px;
+}
+
+
+#light-mode{
+background-color: #fff;
+}
+
+#blue-mode{
+background-color: #192734;
+}
+
+#green-mode{
+background-color: #78866b;
+}
+
+#purple-mode{
+background-color: #7E4C74;
+}
+
+#settings-note{
+font-size: 12px;
+font-style: italic;
+text-align: center;
+}
