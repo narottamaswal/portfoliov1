@@ -5,9 +5,9 @@ background-color: black
 background-color: #15202b;
 color: white;
 }
-{% comment %} #profile-wrapper{
+#profile-wrapper{
 text-align:center;
-} {% endcomment %}
+} 
 .project1{
 background-color: #433d3c;
 }
